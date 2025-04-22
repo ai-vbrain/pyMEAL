@@ -7,8 +7,9 @@ To overcome this, we introduce Multi-encoder Augmentation-Aware Learning (MEAL),
 On non-augmented inputs, MEAL-CC improved SSIM and PSNR by 3.73% and 7.6%, respectively, outperforming standard augmentation by 2× and 4×. Under geometric transformations, MEAL-BD maintained high performance (SSIM: 0.81, PSNR: 24.52 dB), while baseline methods degraded sharply (SSIM < 0.5, PSNR < 18 dB). MEAL thus enhances model robustness and generalizability, advancing clinically reliable imaging solutions for tasks like surgical planning.
 
 <img width="611" alt="Image" src="https://github.com/user-attachments/assets/2ce4b937-3a9d-4157-859f-10e379843efe" />
-Fig. 1:
+Fig. 1:Model architecture for the model having no augmentation and traditional augmentation
 
 
 <img width="683" alt="Image" src="https://github.com/user-attachments/assets/811fc579-a0d0-4ebf-bd2b-e47b48405647" />
+
 Fig. 2: Model architecture for Multi-Stream with a Build Controller method (BD), Fusion layer (FL) and Concatenation (CC)}
