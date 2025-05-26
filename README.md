@@ -15,6 +15,7 @@ Fig. 2: Model architecture for Multi-Stream with a Build Controller method (BD),
 
 ## Dependecies
 tensorflow
+
 matplotlib
 SimpleITK 
 scipy
