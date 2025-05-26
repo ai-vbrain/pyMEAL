@@ -27,3 +27,5 @@ antspyx
 ## Tutorials
 To use the different modules of pyMEAL, please refer to the tutorial section in our GitHub repository (https://github.com/ai-vbrain/pyMEAL)
 
+## How to get support?
+Just write to amoilyas@hkcoche.org or amaradesa@hkcoche.org
