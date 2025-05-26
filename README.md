@@ -11,7 +11,7 @@ Fig. 1:Model architecture for the model having no augmentation and traditional a
 <img width="683" alt="Image" src="https://github.com/user-attachments/assets/811fc579-a0d0-4ebf-bd2b-e47b48405647" />
 
 
-Fig. 2: Model architecture for Multi-Stream with a Build Controller method (BD), Fusion layer (FL) and Concatenation (CC)
+Fig. 2: Model architecture for Multi-Stream with a Builder Controller block method (BD), Fusion layer (FL) and Encoder concatenation (CC)
 
 ## Dependecies
 tensorflow
@@ -23,3 +23,7 @@ SimpleITK
 scipy
 
 antspyx
+
+## Tutorials
+To use different modules of pyMEAL, please refer to the tutorial section in the GitHub repositories (https://github.com/ai-vbrain/pyMEAL)
+
