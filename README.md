@@ -12,3 +12,10 @@ Fig. 1:Model architecture for the model having no augmentation and traditional a
 
 
 Fig. 2: Model architecture for Multi-Stream with a Build Controller method (BD), Fusion layer (FL) and Concatenation (CC)
+
+## Dependecies
+tensorflow
+matplotlib
+SimpleITK 
+scipy
+antspyx
