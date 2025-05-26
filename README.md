@@ -17,6 +17,9 @@ Fig. 2: Model architecture for Multi-Stream with a Build Controller method (BD),
 tensorflow
 
 matplotlib
-SimpleITK 
+
+SimpleITK
+
 scipy
+
 antspyx
