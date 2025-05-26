@@ -1,4 +1,4 @@
-# Multi-Encoder-Augmentation-Aware-Learning
+# pyMEAL: Multi-Encoder-Augmentation-Aware-Learning
 
 Medical imaging is vital for diagnostics, yet clinical deployment remains hindered by patient variability, imaging artifacts, and poor model generalization. Deep learning has transformed image analysis, but its application to 3D imaging is limited by scarce high-quality data and inconsistencies from acquisition protocols, scanner variability, and motion artifacts. Traditional augmentation applies uniform transformations, overlooking the distinct characteristics of each type and struggling with large data volumes.
 
