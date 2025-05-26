@@ -25,5 +25,5 @@ scipy
 antspyx
 
 ## Tutorials
-To use different modules of pyMEAL, please refer to the tutorial section in the GitHub repositories (https://github.com/ai-vbrain/pyMEAL)
+To use the different modules of pyMEAL, please refer to the tutorial section in our GitHub repository (https://github.com/ai-vbrain/pyMEAL)
 
