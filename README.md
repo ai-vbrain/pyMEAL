@@ -48,3 +48,20 @@ To use the different modules of pyMEAL, please refer to the tutorial section in 
 
 ## How to get support?
 Just write to amoilyas@hkcoche.org or amaradesa@hkcoche.org
+
+
+
+
+```python
+my_folder = "./my_models"  # or any path you want
+
+model_path = hf_hub_download(
+    repo_id="AI-vBRAIN/pyMEAL",
+    filename="direct7_11ag23f11.h5",
+    repo_type="model",
+    cache_dir=my_folder
+)
+
+# Load the model from that path
+# model = tf.keras.models.load_model(model_path, compile=False)
+```
