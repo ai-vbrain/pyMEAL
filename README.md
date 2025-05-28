@@ -27,7 +27,8 @@ antspyx
 from huggingface_hub import hf_hub_download
 import tensorflow as tf
 
-# Custom local path
+## Download Model Files
+---
 ```python
 my_folder = "./my_models"  # or any path you want
 
@@ -40,7 +41,7 @@ model_path = hf_hub_download(
 
 # Load the model from that path
 # model = tf.keras.models.load_model(model_path, compile=False)
-
+---
 
 ## Tutorials
 To use the different modules of pyMEAL, please refer to the tutorial section in our GitHub repository (https://github.com/ai-vbrain/pyMEAL)
