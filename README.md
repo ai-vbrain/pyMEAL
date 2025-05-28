@@ -48,7 +48,7 @@ model = tf.keras.models.load_model(model_path, compile=False)
 
 
 ## Tutorials
-To use the different modules of pyMEAL, please refer to the tutorial section in our GitHub repository (https://github.com/ai-vbrain/pyMEAL)
+```To use the different modules of pyMEAL, please refer to the tutorial section in our GitHub repository (https://github.com/ai-vbrain/pyMEAL)
 
 ## How to get support?
 Just write to amoilyas@hkcoche.org or amaradesa@hkcoche.org
