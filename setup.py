@@ -27,16 +27,16 @@ dependencies = [
 setuptools.setup(
     name = "pyMEAL",
     version = "1.0.1",
-    author = "The Hong Kong Center for Cerebrocardivascular Health Engineering (COCHE) and AI-vBRAIN ",
+    author = "The Hong Kong Center for Cerebrocardivascular Health Engineering (COCHE)",
     author_email = "amaradesa@connect.ust.hk",
     description = "pyMEAL: Multi-Encoder-Augmentation-Aware-Learning",
     long_description = readme(),
     long_description_content_type = "text/markdown",
     ###
-    url = "https://github.com/ai-vbrain/Multi-Encoder-Augmentation-Aware-Learning",
+    url = "https://github.com/ai-vbrain/pyMEAL",
     project_urls = {
-        "Source Code": "https://github.com/ai-vbrain/Multi-Encoder-Augmentation-Aware-Learning",
-        "Bug Tracker": "https://github.com/ai-vbrain/Multi-Encoder-Augmentation-Aware-Learning/issues",
+        "Source Code": "https://github.com/ai-vbrain/pyMEAL",
+        "Bug Tracker": "https://github.com/ai-vbrain/pyMEAL/issues",
     },
     install_requires=dependencies,
 
