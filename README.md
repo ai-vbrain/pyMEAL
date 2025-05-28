@@ -24,6 +24,17 @@ scipy
 
 antspyx
 
+
+## Available Models
+
+| Model ID | File Name                                      | Description                                 |
+|----------|------------------------------------------------|---------------------------------------------|
+| BD       | `builder1_mode1l1abW512_1_11211z1p1rt_.h5`     | Builder-based architecture model            |
+| CC       | `best_moderRl_RHID2_1mo.h5`                    | Encoder-concatenation-based configuration   |
+| FL       | `bestac22_mode3l_512m2_m21.h5`                 | Feature-level fusion-based model            |
+| NA       | `direct7_11ag23f11.h5`                         | Direct training baseline model              |
+| TA       | `best_modelaf2ndab7_221ag12g11.h5`             | traditional augmentation configuration model|
+
 ## Download Model Files
 
 You can download any `.h5` file directly:
@@ -57,6 +68,7 @@ output = model.predict(input_data)
 Here, `input_data` refers to a CT image, and the corresponding T1-weighted (T1w) image is predicted as the output.
 
 For detailed instructions on how to use each module of the **pyMEAL** software, please refer to the [tutorial section on our GitHub repository](https://github.com/ai-vbrain/pyMEAL).
+
 
 ## How to get support?
 For help, contact:
