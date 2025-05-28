@@ -55,7 +55,7 @@ my_folder = "./my_models"  # or any path you want
 
 model_path = hf_hub_download(
     repo_id="AI-vBRAIN/pyMEAL",
-    filename="builder1_mode1l1abW512_1_11211z1p1rt_.h5",  # or any other desired model in our Huggingface
+    filename="builder1_mode1l1abW512_1_11211z1p1rt_.h5",  # or any other desired model in our [Huggingface](https://huggingface.co/AI-vBRAIN/pyMEAL/edit/main/README.md).
     repo_type="model",
     cache_dir=my_folder
 )
