@@ -28,7 +28,9 @@ jobs:
 
       - name: Lint with flake8
         run: |
-          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+          flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics --exclude=.ipynb_checkpoints
+          # flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics --exclude=.ipynb_checkpoints
+
 
       - name: Build source distribution
         run: python setup.py sdist
