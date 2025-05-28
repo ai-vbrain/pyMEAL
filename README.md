@@ -41,9 +41,13 @@ model_path = hf_hub_download(
 
 # Load the model from that path
 model = tf.keras.models.load_model(model_path, compile=False)
+# Run inference
+output = model.predict(input_data)
 ```
 
+Here, `input_data` refers to a CT image, and the corresponding T1-weighted (T1w) image is produced as the output.
 
+For detailed instructions on how to use each module of the **pyMEAL** software, please refer to the [tutorial section on our GitHub repository](https://github.com/ai-vbrain/pyMEAL).
 
 
 ## Tutorials
