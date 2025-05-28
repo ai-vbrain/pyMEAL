@@ -28,6 +28,23 @@ from huggingface_hub import hf_hub_download
 import tensorflow as tf
 
 ## Download Model Files
+## Download Model Files
+
+```python
+from huggingface_hub import hf_hub_download
+import tensorflow as tf
+
+my_folder = "./my_models"  # or any path you want
+
+model_path = hf_hub_download(
+    repo_id="AI-vBRAIN/pyMEAL",
+    filename="builder1_mode1l1abW512_1_11211z1p1rt_.h5",  # or any other desired model in our Huggingface
+    repo_type="model",
+    cache_dir=my_folder
+)
+
+# Load the model from that path
+model = tf.keras.models.load_model(model_path, compile=False)
 
 
 
