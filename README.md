@@ -69,6 +69,13 @@ Here, `input_data` refers to a CT image, and the corresponding T1-weighted (T1w)
 
 For detailed instructions on how to use each module of the **pyMEAL** software, please refer to the [tutorial section on our GitHub repository](https://github.com/ai-vbrain/pyMEAL).
 
+```python
+conda create -n pyMEAL python=3.9
+conda activate pyMEAL
+pip install pyMEAL
+```
+
+
 
 ## How to get support?
 For help, contact:
