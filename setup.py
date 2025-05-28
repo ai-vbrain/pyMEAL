@@ -26,7 +26,7 @@ dependencies = [
 
 setuptools.setup(
     name = "pyMEAL",
-    version = "1.0.1",
+    version = "1.0.2",
     author = "The Hong Kong Center for Cerebrocardivascular Health Engineering (COCHE)",
     author_email = "amaradesa@connect.ust.hk",
     description = "pyMEAL: Multi-Encoder-Augmentation-Aware-Learning",
