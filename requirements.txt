@@ -3,3 +3,4 @@ matplotlib == 3.9.2
 SimpleITK == 2.4.0
 scipy == 1.13.1
 antspyx == 0.5.4
+numpy == 1.23.5
