@@ -1,0 +1,6 @@
+test_fusion_layer_output (test_fusion_layer.TestFeatureFusionLayerFL) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.066s
+
+OK

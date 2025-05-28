@@ -1,0 +1,6 @@
+test_build_multistream_model_with_real_image (test_basics.TestMultistreamIntegration) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 154.034s
+
+OK

@@ -1,0 +1,6 @@
+test_dataset_output_shapes (test_fusion_layer.TestCreateDatasetFL) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.221s
+
+OK

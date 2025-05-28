@@ -1,0 +1,8 @@
+test_build_multistream_model_output (test_builder_block.TestModelArchitecturesBD) ... ok
+test_controller_block (test_builder_block.TestModelArchitecturesBD) ... ok
+test_refined_diffusion_model_output (test_builder_block.TestModelArchitecturesBD) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 82.177s
+
+OK

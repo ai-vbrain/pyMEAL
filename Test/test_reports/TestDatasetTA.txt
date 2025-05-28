@@ -1,0 +1,6 @@
+test_create_dataset_pipeline (test_traditional_augmentation.TestDatasetPipelineTA) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 2.689s
+
+OK

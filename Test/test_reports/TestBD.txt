@@ -1,0 +1,9 @@
+test_crop_augmentation (test_builder_block.TestAugmentationLayersBD) ... ok
+test_flip_augmentation (test_builder_block.TestAugmentationLayersBD) ... ok
+test_intensity_augmentation (test_builder_block.TestAugmentationLayersBD) ... ok
+test_rotate_augmentation (test_builder_block.TestAugmentationLayersBD) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.152s
+
+OK

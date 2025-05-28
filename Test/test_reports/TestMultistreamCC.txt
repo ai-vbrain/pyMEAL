@@ -1,0 +1,6 @@
+test_model_structure_and_forward_pass (test_encoder_concatenation.TestMultistreamModelCC) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 366.275s
+
+OK

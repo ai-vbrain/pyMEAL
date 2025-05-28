@@ -1,0 +1,6 @@
+test_end_to_end_pass (test_without_augmentation.TestIntegrationEncoderDecoderNA) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 22.275s
+
+OK

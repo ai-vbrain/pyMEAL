@@ -1,0 +1,6 @@
+test_encoder_output_shape (test_without_augmentation.TestEncoderBlockNA) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 1.023s
+
+OK

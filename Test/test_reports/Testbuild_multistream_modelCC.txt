@@ -1,0 +1,6 @@
+test_real_ct_input_through_model (Testmodules.Testbuild_multistream_modelCC) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 64.896s
+
+OK

@@ -1,0 +1,22 @@
+test_apply_augmentation_combined (test_basics.TestBasicsModule) ... ok
+test_apply_windowing_basic_range (test_basics.TestBasicsModule) ... ok
+test_combined_loss_perfect_prediction (test_basics.TestBasicsModule) ... ok
+test_combined_loss_value_range (test_basics.TestBasicsModule) ... ok
+test_create_dataset_pipeline (test_basics.TestBasicsModule) ... ok
+test_crop_augmentation_layer (test_basics.TestBasicsModule) ... ok
+test_ensure_5d (test_basics.TestBasicsModule) ... ok
+test_evaluate_model (test_basics.TestBasicsModule) ... ok
+test_flip_augmentation_layer (test_basics.TestBasicsModule) ... ok
+test_intensity_augmentation_layer (test_basics.TestBasicsModule) ... ok
+test_load_and_preprocess_shape_consistency (test_basics.TestBasicsModule) ... ok
+test_normalize_volume (test_basics.TestBasicsModule) ... ok
+test_refined_residual_block_output_shape (test_basics.TestBasicsModule) ... ok
+test_resize_volume_shape (test_basics.TestBasicsModule) ... ok
+test_rotate_augmentation_layer (test_basics.TestBasicsModule) ... ok
+test_ssim_loss_incorrect_prediction (test_basics.TestBasicsModule) ... ok
+test_ssim_loss_perfect_prediction (test_basics.TestBasicsModule) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 15.192s
+
+OK

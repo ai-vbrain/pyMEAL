@@ -1,0 +1,6 @@
+test_model_output_shape (test_traditional_augmentation.TestRefinedDiffusionModelTA) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 29.244s
+
+OK

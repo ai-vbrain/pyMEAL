@@ -1,0 +1,7 @@
+test_model_output_shape (test_without_augmentation.TestRefinedDiffusionModelNA) ... ok
+test_model_structure (test_without_augmentation.TestRefinedDiffusionModelNA) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 22.790s
+
+OK
