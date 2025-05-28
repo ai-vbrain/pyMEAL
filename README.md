@@ -34,6 +34,7 @@ You can download any `.h5` file directly:
 - [Download direct7_11ag23f11.h5](https://huggingface.co/AI-vBRAIN/pyMEAL/resolve/main/direct7_11ag23f11.h5)
 - [Download best_modelaf2ndab7_221ag12g11.h5](https://huggingface.co/AI-vBRAIN/pyMEAL/resolve/main/best_modelaf2ndab7_221ag12g11.h5)
 
+or alternatively, you can use the following Python script to downlaod all the models from Hugginface.
 
 ```python
 from huggingface_hub import hf_hub_download
