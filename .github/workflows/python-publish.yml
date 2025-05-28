@@ -24,7 +24,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install flake8
           pip install setuptools matplotlib pandas scipy numpy scikit-learn wheel 
-          pip install -r requirement.txt  # Ensure this file exists in your repo
+          #pip install -r requirement.txt  # Ensure this file exists in your repo
 
       - name: Lint with flake8
         run: |
