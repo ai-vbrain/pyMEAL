@@ -26,8 +26,8 @@ dependencies = [
 ]
 
 setuptools.setup(
-    name = "MEAL",
-    version = "0.1.0",
+    name = "pyMEAL",
+    version = "1.0.1",
     author = "The Hong Kong Center for Cerebrocardivascular Health Engineering (COCHE) and AI-vBRAIN ",
     author_email = "amaradesa@connect.ust.hk",
     description = "pyMEAL: Multi-Encoder-Augmentation-Aware-Learning",
@@ -57,5 +57,5 @@ setuptools.setup(
     ],
     packages=['pyMEAL'],
     include_package_data=True,
-    package_data={'MEAL': ['CTScan data/*']}, 
+    package_data={'pyMEAL': ['CTScan data/*']}, 
 )
