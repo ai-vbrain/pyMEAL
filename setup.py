@@ -12,17 +12,16 @@ def readme():
     except IOError:
         return ''
 
-
 dependencies = [
-    "matplotlib",  
-    "tensorflow",  
-    "SimpleITK",
-    "numpy",
-    "scipy",
-    "antspyx",
-    "PIL",
-    "nibabel",
-    "imageio",
+    "tensorflow==2.9.0",
+    "matplotlib==3.9.2",
+    "SimpleITK==2.4.0",
+    "scipy==1.13.1",
+    "antspyx==0.5.4",
+    "numpy==1.23.5",
+    "imageio==2.36.0",
+    "nibabel==5.3.2",
+    "pillow==11.0.0",
 ]
 
 setuptools.setup(
