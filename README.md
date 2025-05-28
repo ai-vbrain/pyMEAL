@@ -45,13 +45,9 @@ model = tf.keras.models.load_model(model_path, compile=False)
 output = model.predict(input_data)
 ```
 
-Here, `input_data` refers to a CT image, and the corresponding T1-weighted (T1w) image is produced as the output.
+Here, `input_data` refers to a CT image, and the corresponding T1-weighted (T1w) image is predicted as the output.
 
 For detailed instructions on how to use each module of the **pyMEAL** software, please refer to the [tutorial section on our GitHub repository](https://github.com/ai-vbrain/pyMEAL).
-
-
-## Tutorials
-To use the different modules of pyMEAL, please refer to the tutorial section in our GitHub repository (https://github.com/ai-vbrain/pyMEAL)
 
 ## How to get support?
 For help, contact:
