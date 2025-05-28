@@ -1,7 +1,7 @@
 # This workflow builds and uploads the pyMEAL package to PyPI using Twine
 # Triggered manually via GitHub Actions UI
 
-name: Build_PYMEAL_v4
+name: Build_PYMEAL_v6
 
 on:
   workflow_dispatch:
