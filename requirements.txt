@@ -5,3 +5,4 @@ scipy == 1.13.1
 antspyx == 0.5.4
 numpy == 1.23.5
 imageio == 2.36.0
+nibabel == 5.3.2
