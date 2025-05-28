@@ -26,6 +26,15 @@ antspyx
 
 ## Download Model Files
 
+You can download any `.h5` file directly:
+
+- [Download builder1_mode1l1abW512_1_11211z1p1rt_.h5](https://huggingface.co/AI-vBRAIN/pyMEAL/resolve/main/builder1_mode1l1abW512_1_11211z1p1rt_.h5)
+- [Download best_moderRl_RHID2_1mo.h5](https://huggingface.co/AI-vBRAIN/pyMEAL/resolve/main/best_moderRl_RHID2_1mo.h5)
+- [Download bestac22_mode3l_512m2_m21.h5](https://huggingface.co/AI-vBRAIN/pyMEAL/resolve/main/bestac22_mode3l_512m2_m21.h5)
+- [Download direct7_11ag23f11.h5](https://huggingface.co/AI-vBRAIN/pyMEAL/resolve/main/direct7_11ag23f11.h5)
+- [Download best_modelaf2ndab7_221ag12g11.h5](https://huggingface.co/AI-vBRAIN/pyMEAL/resolve/main/best_modelaf2ndab7_221ag12g11.h5)
+
+
 ```python
 from huggingface_hub import hf_hub_download
 import tensorflow as tf
@@ -44,7 +53,6 @@ model = tf.keras.models.load_model(model_path, compile=False)
 # Run inference
 output = model.predict(input_data)
 ```
-
 Here, `input_data` refers to a CT image, and the corresponding T1-weighted (T1w) image is predicted as the output.
 
 For detailed instructions on how to use each module of the **pyMEAL** software, please refer to the [tutorial section on our GitHub repository](https://github.com/ai-vbrain/pyMEAL).
