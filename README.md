@@ -41,7 +41,7 @@ model_path = hf_hub_download(
 
 # Load the model from that path
 # model = tf.keras.models.load_model(model_path, compile=False)
----
+
 
 
 ## Tutorials
