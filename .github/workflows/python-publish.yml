@@ -4,7 +4,7 @@
 # Connect to the PYPI
 # documentation for pyMEAL
 
-name: Build_PYMEAL_v1
+name: Build_PYMEAL_v2
 on:
   workflow_dispatch:
 jobs:
@@ -42,9 +42,10 @@ jobs:
             
             - name: Publish to PYPI
               #if: github.event_name == 'release'  # Only publish to PyPI on release events
-              uses: pypa/gh-action-pypi-publish@release/v1   #release/v1
+              uses: pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
 
               #pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29
+              # pypa/gh-action-pypi-publish@release/v1   #release/v1
                         
               with:
                   password: ${{ secrets.PYMEAL }}
