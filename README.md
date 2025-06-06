@@ -78,7 +78,17 @@ conda activate pyMEAL
 pip install pyMEAL
 ```
 
+## How to cite this work?
+Please cite the following:
 
+```python
+@article{ilyas2025pymeal,
+  title={pyMEAL: A Multi-Encoder Augmentation-Aware Learning for Robust and Generalizable Medical Image Translation},
+  author={Ilyas, Abdul-mojeed Olabisi and Maradesa, Adeleke and Banzi, Jamal and Huang, Jianpan and Mak, Henry KF and Chan, Kannie WY},
+  journal={arXiv preprint arXiv:2505.24421},
+  year={2025}
+}
+```
 
 ## How to get support?
 For help, contact:
